@@ -1,5 +1,6 @@
 # Replace the "ANSWER HERE" with your answer
 
+
 def remove_elements(list_to_remove_elements):
     indices_to_remove = [0, 4, 5]
     return [item for i, item in enumerate(list_to_remove_elements) if i not in indices_to_remove]
